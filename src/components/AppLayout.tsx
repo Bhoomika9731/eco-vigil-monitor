@@ -2,7 +2,7 @@ import { NavLink, Outlet } from 'react-router-dom';
 import { LayoutDashboard, Map, Bell, BarChart3, Radio, Shield, Flame, TreePine } from 'lucide-react';
 
 const navItems = [
-  { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
+  { to: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
   { to: '/map', icon: Map, label: 'Map View' },
   { to: '/alerts', icon: Bell, label: 'Alerts' },
   { to: '/analytics', icon: BarChart3, label: 'Analytics' },
@@ -30,7 +30,7 @@ export default function AppLayout() {
             <NavLink
               key={to}
               to={to}
-              end={to === '/'}
+              end={to === '/dashboard'}
               className={({ isActive }) =>
                 `flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors ${
                   isActive
