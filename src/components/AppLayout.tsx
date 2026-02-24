@@ -48,7 +48,7 @@ export default function AppLayout() {
         <div className="p-4 border-t border-sidebar-border">
           <div className="flex items-center gap-2 text-xs text-sidebar-foreground/50">
             <TreePine className="w-3.5 h-3.5" />
-            <span>Hack For Green Bharat</span>
+            
           </div>
         </div>
       </aside>

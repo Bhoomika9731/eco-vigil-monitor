@@ -59,10 +59,7 @@ export default function Landing() {
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/50 to-transparent" />
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-32">
           <div className="max-w-2xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/20 text-primary-foreground text-xs font-medium mb-6 border border-primary/30">
-              <TreePine className="w-3.5 h-3.5" />
-              Hack For Green Bharat
-            </div>
+            
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-primary-foreground leading-[1.08] tracking-tight mb-6">
               Protecting Forests.<br />
               <span className="text-primary">Predicting Fires.</span>
@@ -80,7 +77,7 @@ export default function Landing() {
                 </Button>
               </Link>
               <Link to="/auth">
-                <Button size="lg" variant="outline" className="text-base px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+                <Button size="lg" variant="outline" className="text-base px-8 border-primary-foreground/30  bg-primary-foreground/60 hover:bg-primary-foreground/10">
                   Sign Up Free
                 </Button>
               </Link>

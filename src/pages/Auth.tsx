@@ -36,7 +36,7 @@ export default function Auth() {
           <div className="w-16 h-16 rounded-2xl bg-primary flex items-center justify-center mx-auto mb-8">
             <Flame className="w-8 h-8 text-primary-foreground" />
           </div>
-          <h2 className="text-3xl font-bold text-foreground mb-4">GreenGuard FireWatch</h2>
+          
           <p className="text-muted-foreground leading-relaxed mb-6">
             AI-powered real-time forest fire detection and prevention using IoT sensor networks.
           </p>
